@@ -3,6 +3,8 @@
     <x:Property Name="in_Password" Type="InArgument(ss:SecureString)" />
     <x:Property Name="in_Email" Type="InArgument(x:String)" />
     <x:Property Name="test" Type="InArgument(x:String)" />
+    <x:Property Name="test1" Type="InArgument(x:String)" />
+    <x:Property Name="argument1" Type="InArgument(x:String)" />
   </x:Members>
   <this:Main.in_Password>
     <InArgument x:TypeArguments="ss:SecureString" />
