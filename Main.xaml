@@ -2,6 +2,7 @@
   <x:Members>
     <x:Property Name="in_Password" Type="InArgument(ss:SecureString)" />
     <x:Property Name="in_Email" Type="InArgument(x:String)" />
+    <x:Property Name="test" Type="InArgument(x:String)" />
   </x:Members>
   <this:Main.in_Password>
     <InArgument x:TypeArguments="ss:SecureString" />
@@ -12,7 +13,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>696,3346</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>960,3346</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="64">
